@@ -33,10 +33,3 @@ PREFERRED_PROVIDER:virtual/libxrandr = "libxrandr"
 ```
 
 これらの点を確認し、それでも効果がない場合は、ビルド環境のクリーンアップ（`bitbake -c cleanall virtual/libxrandr`）を行ってから再ビルドしてみてください。また、bitbake の詳細なログを確認して、実際にどのプロバイダが選択されているかを確認することも有効です。
-
-Citations:
-[1] https://mickey-happygolucky.hatenablog.com/entry/2015/06/28/004605
-[2] https://qiita.com/AngryMane/items/61d2fa47246a9f9217f5
-[3] https://mickey-happygolucky.hatenablog.com/entry/2023/02/17/211258
-[4] https://www.paltek.co.jp/techblog/techinfo/240626_01
-[5] https://qiita.com/rg125_suzuki/items/702e90084e12e0fdf6de
